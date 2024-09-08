@@ -19,6 +19,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Log greeting with level
-      run: |
-        echo "${{ inputs.greeting }} : Logging level is ${{ inputs.log-level }}"
+        run: |
+          echo "${{ inputs.greeting }} : Logging level is ${{ inputs.log-level }}"
 
