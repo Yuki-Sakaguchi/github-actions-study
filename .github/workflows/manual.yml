@@ -10,7 +10,7 @@ on:
 
 jobs:
   run:
-    runs-no: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - run: echo "${{ inputs.greeting }}" # 入力パラメータの参照
 
