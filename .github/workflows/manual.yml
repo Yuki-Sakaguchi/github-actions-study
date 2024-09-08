@@ -18,5 +18,5 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "${{ inputs.greeting }} test!!" # 入力パラメータの参照
+      - run: echo "${{ inputs.log-level }} test!!" # 入力パラメータの参照
 
