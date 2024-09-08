@@ -1,6 +1,6 @@
 name: Manual
 on:
-  workflow_dispath:                        # 手動実行のイベント
+  workflow_dispatch:                        # 手動実行のイベント
     inputs:
       greeting:
         type: string
