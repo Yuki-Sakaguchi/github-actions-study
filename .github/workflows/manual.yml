@@ -13,6 +13,9 @@ on:
           - info
           - warn
           - error
+        default: info
+        required: true
+
 
 jobs:
   run:
