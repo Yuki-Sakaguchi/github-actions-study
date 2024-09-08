@@ -13,13 +13,10 @@ on:
           - info
           - warn
           - error
-        default: info
-        required: true
-
 
 jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "${{ inputs.greeting }} : ${{ inputs['log-level'] }}" # 入力パラメータの参照
+      - run: echo "${{ inputs.greeting }} test!!" # 入力パラメータの参照
 
